@@ -1,0 +1,159 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #f1f3f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 48px 40px;
+  width: 1000px;
+  height: 500px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  height: 90px;
+  /* float: left; */
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 23px;
+  color: #5f6368;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #1a73e8;
+}
+
+.date-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.date-inputs select,
+.date-inputs input {
+  flex: 1;
+}
+
+button {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #1765cc;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: #5f6368;
+}
+
+.footer a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.form-section {
+  display: none;
+}
+
+.form-section.active {
+  display: block;
+}
+
+.username-group {
+  position: relative;
+}
+
+.email-suffix {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #5f6368;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.helper-text {
+  font-size: 12px;
+  color: #5f6368;
+  margin-top: 5px;
+}
+
+#sub-container {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 200px;
+  padding: 30px;
+}
+
+.text-area {
+  height: 30px;
+  size: 80;
+}
+
+a:link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1765cc;
+  text-decoration: underline;
+}
+
+.footer {
+  float: right;
+}
